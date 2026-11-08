@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabriel Sena — Product Analyst & Tech Enthusiast</title>
+  <meta name="description" content="Portfólio de Gabriel Sena: analista de produto, automação, dados e sistemas com HTML, CSS, JavaScript e Python.">
+  <meta name="theme-color" content="#0A0A0C">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+<div class="glow" id="glow" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#inicio" class="logo">GS<span>.</span>09</a>
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+  <nav class="menu" id="menu">
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#playbook">Playbook</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato" class="cta">Contato</a>
+  </nav>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-text reveal">
+      <p class="tag"><span class="dot"></span> Disponível para novos desafios</p>
+      <h1>Gabriel<br><em>Sena</em></h1>
+      <p class="role">Product Analyst &amp; <span id="typed" aria-live="polite">Tech Enthusiast</span><span class="caret">|</span></p>
+      <p class="lead">Movido a lógica, código e performance. Transformando ideias em soluções robustas dentro e fora da tela.</p>
+      <div class="actions">
+        <a href="#projetos" class="btn primary">Ver projetos <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#contato" class="btn ghost">Vamos conversar</a>
+      </div>
+      <svg class="pulse" viewBox="0 0 600 60" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 30 H180 L200 30 L215 8 L235 54 L252 18 L264 30 H600"/>
+      </svg>
+    </div>
+
+    <!-- Card de atleta -->
+    <aside class="athlete reveal" aria-label="Card de atleta">
+      <div class="ath-top">
+        <div class="ovr"><b>99</b><small>OVR</small></div>
+        <div class="num">#9</div>
+      </div>
+      <div class="duo ath-photo">
+        <img src="assets/img/retrato.jpg" alt="Retrato de Gabriel Sena" loading="eager">
+      </div>
+      <h2 class="ath-name">GABRIEL SENA</h2>
+      <ul class="ath-stats">
+        <li><span>Posição</span><b>Desenvolvedor / Analista</b></li>
+        <li><span>Foco</span><b>Automação, Dados &amp; Sistemas</b></li>
+        <li><span>Estamina</span>
+          <div class="bar"><i data-fill="100"></i></div><b>100%</b></li>
+        <li><span>Lógica</span>
+          <div class="bar"><i data-fill="94"></i></div><b>94</b></li>
+        <li><span>Consistência</span>
+          <div class="bar"><i data-fill="96"></i></div><b>96</b></li>
+      </ul>
+    </aside>
+  </div>
+  <a href="#sobre" class="scroll" aria-label="Rolar para baixo"><span></span></a>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>PYTHON</span><span>AUTOMAÇÃO</span><span>DADOS</span><span>SISTEMAS</span>
+    <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>PYTHON</span><span>AUTOMAÇÃO</span><span>DADOS</span><span>SISTEMAS</span>
+  </div>
+</div>
+
+<!-- ============ SOBRE ============ -->
+<section class="sec" id="sobre">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <span class="kicker">01 / Bio</span>
+      <h2>O jogo do <em>dia a dia</em></h2>
+    </header>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Assim como em um treino estruturado, acredito que a <strong>consistência</strong> e a <strong>estratégia</strong> são os pilares de qualquer grande projeto.</p>
+        <p>No meu dia a dia, divido meu tempo entre arquitetar soluções de TI, estruturar dados e buscar a alta performance — seja resolvendo problemas complexos de código ou mantendo o foco nos treinos de força e resistência.</p>
+        <p>Sou apaixonado por tecnologia porque ela permite criar, automatizar e ir mais longe.</p>
+
+        <div class="blocks">
+          <article class="block">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg>
+            <h3>Treino</h3><p>Força e resistência: disciplina que vai do corpo ao código.</p>
+          </article>
+          <article class="block">
+            <svg viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>
+            <h3>Quadra</h3><p>Vôlei com a camisa 9: leitura de jogo, timing e trabalho em equipe.</p>
+          </article>
+          <article class="block">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>
+            <h3>Sistemas</h3><p>Automatizar o repetitivo para sobrar tempo para o que importa.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="gallery reveal" id="gallery">
+        <button class="shot tall" data-src="assets/img/ataque.jpg"><img src="assets/img/ataque.jpg" alt="Gabriel no ataque, no alto da rede" loading="lazy"></button>
+        <button class="shot" data-src="assets/img/camisa9.jpg"><img src="assets/img/camisa9.jpg" alt="Gabriel de costas, camisa 9" loading="lazy"></button>
+        <button class="shot" data-src="assets/img/quadra-03.jpg"><img src="assets/img/quadra-03.jpg" alt="Gabriel em quadra com a bola" loading="lazy"></button>
+        <button class="shot wide" data-src="assets/img/palco.jpg"><img src="assets/img/palco.jpg" alt="Gabriel no palco em uma apresentação" loading="lazy"><span>Fora da quadra: palco</span></button>
+      </div>
+    </div>
+
+    <!-- Placar -->
+    <div class="scoreboard reveal">
+      <div><b data-count="4">0</b><span>Linguagens-base</span></div>
+      <div><b data-count="9">0</b><span>Camisa</span></div>
+      <div><b data-count="100">0</b><span>% de foco</span></div>
+      <div><b>∞</b><span>Ciclos de evolução</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLAYBOOK ============ -->
+<section class="sec alt" id="playbook">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <span class="kicker">02 / Playbook</span>
+      <h2>Estatísticas de <em>performance</em></h2>
+      <p>Meu arsenal principal. Cada barra é um fundamento treinado.</p>
+    </header>
+
+    <div class="stats reveal" id="stats"><!-- gerado por script.js --></div>
+  </div>
+</section>
+
+<!-- ============ PROJETOS ============ -->
+<section class="sec" id="projetos">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <span class="kicker">03 / Conquistas</span>
+      <h2>Partidas <em>jogadas</em></h2>
+      <p>Meu histórico de projetos está sendo montado. Em breve, o placar completo.</p>
+    </header>
+
+    <div class="cards" id="cards"><!-- gerado por script.js --></div>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="sec contact" id="contato">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <span class="kicker">04 / Próximo lance</span>
+      <h2>Bora fazer <em>acontecer?</em></h2>
+      <p class="lead">Tem uma ideia, um processo para automatizar ou uma vaga em time? Manda a bola.</p>
+      <ul class="links">
+        <!-- TODO: troque pelos seus links reais -->
+        <li><a href="mailto:seu-email@exemplo.com"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>seu-email@exemplo.com</a></li>
+        <li><a href="https://github.com/seu-usuario" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3.3-.4 6.5-1.6 6.5-7.2A5.6 5.6 0 0 0 19 5.2 5.2 5.2 0 0 0 18.9 1.5S17.7 1.1 15 3a13.4 13.4 0 0 0-7 0C5.3 1.1 4.1 1.5 4.1 1.5A5.2 5.2 0 0 0 4 5.2 5.6 5.6 0 0 0 2.5 9.1c0 5.6 3.2 6.8 6.5 7.2a3.4 3.4 0 0 0-1 2.6V22"/></svg>github.com/seu-usuario</a></li>
+        <li><a href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>linkedin.com/in/seu-usuario</a></li>
+      </ul>
+    </div>
+    <div class="duo contact-photo reveal">
+      <img src="assets/img/joinha.jpg" alt="Gabriel fazendo joinha" loading="lazy">
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <svg class="pulse" viewBox="0 0 600 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 H180 L200 30 L215 8 L235 54 L252 18 L264 30 H600"/></svg>
+  <p>© <span id="year"></span> Gabriel Sena · Feito com HTML, CSS, JavaScript &amp; Python</p>
+  <a href="#inicio" class="top">Voltar ao topo ↑</a>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden>
+  <button aria-label="Fechar">✕</button>
+  <img alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
